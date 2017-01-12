@@ -20,9 +20,19 @@
 .text {
   font-size: 18px;
   line-height: 32px;
+  color: #5a5a5a;
 }
 .bold {
   font-weight: 700;
+}
+.titles {
+  font-size: 43px;
+  font-weight: 300;
+  color: #5a5a5a;
+  padding-bottom: 20px;
+}
+.green-text {
+  color: #2ecc71;
 }
 .header {
   background: #2ecc71;
@@ -82,6 +92,15 @@
   display: box;
   display: flex;
 }
+.eat-better .phone {
+  background: url("../images/phone.png") no-repeat;
+  width: 404px;
+  height: 753px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
 .eat-better .eat-better-article {
   padding-top: 120px;
   width: 630px;
@@ -95,6 +114,9 @@
   font-weight: 300;
   padding-bottom: 30px;
 }
+.eat-better .eat-better-article .text {
+  color: #f4f4f4;
+}
 .eat-better .eat-better-article .get-app {
   padding: 60px 0 140px;
 }
@@ -105,15 +127,6 @@
   margin: 0;
 }
 @media screen and (min-width: 1200px) and (max-width: 1999px) {
-  .phone {
-    background: url("../images/phone.png") no-repeat;
-    width: 404px;
-    height: 753px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-  }
   .banana {
     background: url("../images/banana.png") no-repeat;
     width: 234px;
@@ -189,4 +202,149 @@
     right: -380px;
     bottom: 420px;
   }
+}
+.features {
+  padding-top: 90px;
+}
+.features .wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.features .phone2 {
+  background: url("../images/phone-2.png") no-repeat;
+  width: 702px;
+  height: 784px;
+}
+.features .features-text {
+  width: 462px;
+}
+.diet {
+  background: #f9f9f9;
+  padding-top: 115px;
+}
+.diet .wrapper {
+  position: relative;
+}
+.diet .diet-title {
+  width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 110px;
+}
+.diet .phone3 {
+  background: url("../images/phone-3.png") no-repeat;
+  width: 874px;
+  height: 545px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 3;
+}
+.diet .pepper {
+  background: url("../images/pepper.png") no-repeat;
+  width: 188px;
+  height: 193px;
+  position: absolute;
+  top: 0;
+  left: -220px;
+}
+.diet .apple2 {
+  background: url("../images/apple2.png") no-repeat;
+  width: 224px;
+  height: 305px;
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+}
+.diet .banana2 {
+  background: url("../images/banana2.png") no-repeat;
+  width: 277px;
+  height: 361px;
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}
+.diet .strawberry2 {
+  background: url("../images/strawberry2.png") no-repeat;
+  width: 145px;
+  height: 138px;
+  position: absolute;
+  top: 0;
+  right: -175px;
+}
+.manage {
+  background: #fff;
+}
+.manage .wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.manage .manage-text {
+  display: block;
+  max-width: 462px;
+}
+.manage .manage-img {
+  background: url("../images/manage-img.png") no-repeat;
+  width: 613px;
+  height: 502px;
+  padding-top: 150px;
+  padding-bottom: 140px;
+}
+.footer {
+  background: #2ecc71;
+}
+.footer .footer-article {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 115px 0;
+  text-align: center;
+  color: #f4f4f4;
+}
+.footer .footer-article .text,
+.footer .footer-article .titles {
+  color: #f4f4f4;
+}
+.footer .get-app {
+  display: block;
+  width: 247px;
+  height: 42px;
+  padding: 14px 85px;
+  border-radius: 30px;
+  color: #2ecc71;
+  margin: 30px auto 0;
+  background: #fff;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 700;
 }
